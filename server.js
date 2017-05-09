@@ -26,3 +26,5 @@ if (typeof port == 'undefined' || !port){
        ).resume();
     }
   ).listen(port);        
+
+  console.log('The server is running.');
